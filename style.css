@@ -9,11 +9,16 @@ h1{
     font-weight: 500;
 }
 
-.orangeColor{
-    color: orange;
+h2{
+    font-size: 40px;
 }
 
-.secA{
+.orangeColor{
+    color: orange;
+    
+}
+
+.flexible-container{
     display: flex;
     margin-bottom: 150px;
 }
@@ -44,4 +49,35 @@ h1{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+    
+}
+.ex{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 35px gray;
+    
+}
+
+.Experiences{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;    
+}
+
+#web-dev{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+#web-heo{
+    border-left: 7px solid;
+    border-image: linear-gradient(salmon, tomato);
+    border-image-slice: 1;
+}
+
+footer p{
+    text-align: center;
 }
