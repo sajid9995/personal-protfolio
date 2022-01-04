@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap');
+
+body{
+    margin: 0;    
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.orangeColor{
+    color: orange;
+}
+
+.secA{
+    display: flex;
+}
+.write{
+    width: 50%;
+    padding-left: 2%;
+}
+
+.write img{
+    width: 80%;
+}
+
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 40px;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+.secA{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;    
+}
