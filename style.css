@@ -15,6 +15,7 @@ h1{
 
 .secA{
     display: flex;
+    margin-bottom: 150px;
 }
 .write{
     width: 50%;
@@ -37,4 +38,10 @@ h1{
 .secA{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;    
+}
+
+#SecB{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
